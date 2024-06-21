@@ -1,0 +1,111 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "suma {uno} y {dos}",
+            "Resultado de {uno} mas {dos}",
+            "Tengo {uno} y le agrego {dos}",
+            "la adicion de {uno} mas {dos}",
+            "Suma {uno} mas {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "resta {uno} menos {dos}",
+            "{uno} menos {dos}",
+            "La diferencia de {uno} y {dos}",
+            "Dame la resta de {dos} menos {uno}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "La multiplicacion de {uno} por {dos}",
+            "Dame la multiplicacion de {uno} por {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "Division de {uno} y {dos}",
+            "{uno} entre {dos}",
+            "Dime la division de {uno} entre {dos}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora vfrh"
+    }
+  }
+}
