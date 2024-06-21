@@ -143,7 +143,7 @@ const RestaIntentHendler= {
             .getResponse();
       }
       let resultado= 0;
-      resultado = numero1 - numero2;
+       resultado = numero2 - numero1;
       const speakOutput = `Calculadora VFRH... El resultado de la resta de ${numero1} menos ${numero2} es igual a ${resultado}.`;
       return handlerInput.responseBuilder
         .speak(speakOutput)
